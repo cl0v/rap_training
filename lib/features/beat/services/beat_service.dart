@@ -1,12 +1,16 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:flutter/material.dart';
 import 'package:rap_training/features/beat/interfaces/beat_interface.dart';
 
-import 'package:rap_training/features/training_section/constants.dart/audio_url.dart';
+import 'package:rap_training/constants/audio_url.dart';
 
-// Vai virar service e terá o controller do combo, que reinicia tanto a letra quanto a musica
-
+  /*
+class Audio{
+  AudioPlayer player;
+  String url;
+}
+  */
 class BeatService implements IBeat {
+
   AudioPlayer audioPlayer;
   String audioUrl;
 

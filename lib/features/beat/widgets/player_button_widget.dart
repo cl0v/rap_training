@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:rap_training/features/beat/controller/player_button_controller.dart';
 import 'package:rap_training/features/beat/providers/beat_provider.dart';
 
-class PlayerButtonWidget extends StatefulWidget {
+class PlayBeatButtonWidget extends StatefulWidget {
   @override
-  _PlayerButtonWidgetState createState() => _PlayerButtonWidgetState();
+  _PlayBeatButtonWidgetState createState() => _PlayBeatButtonWidgetState();
 }
 
-class _PlayerButtonWidgetState extends State<PlayerButtonWidget> {
+class _PlayBeatButtonWidgetState extends State<PlayBeatButtonWidget> {
   late final controller;
   @override
   void didChangeDependencies() {
