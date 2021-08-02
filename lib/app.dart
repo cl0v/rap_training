@@ -1,7 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:rap_training/pages/home_page.dart';
-import 'package:rap_training/pages/singer_page.dart';
+import 'features/training_section/pages/home_page.dart';
 
 class MyApp extends StatelessWidget {
   @override

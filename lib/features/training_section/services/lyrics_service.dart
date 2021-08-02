@@ -1,13 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:pausable_timer/pausable_timer.dart';
-import 'package:rap_training/interfaces/player_interface.dart';
+import 'package:rap_training/features/training_section/interfaces/beat_interface.dart';
 
 class LyricsService implements IPlayer {
   int _index = 0;
 
-  final timer = PausableTimer(Duration(seconds: 1), () => print('Fired!'));
 
   //TODO: Implementar o player no timer
   final notifier = ValueNotifier<String>('READY!');

@@ -1,4 +1,4 @@
-import 'package:rap_training/interfaces/player_interface.dart';
+import 'package:rap_training/features/training_section/interfaces/beat_interface.dart';
 
 class TimerService implements IPlayer {
   // double seconds;
