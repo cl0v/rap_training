@@ -1,7 +1,7 @@
 abstract class IBeat {
-  restart() {}
-  play(String url) {}
-  void stop(){}
-  resume() {}
-  pause() {}
+  Future<int> restart();
+  Future<int> play();
+  Future<int> stop();
+  Future<int> resume();
+  Future<int> pause();
 }
