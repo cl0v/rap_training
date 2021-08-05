@@ -84,20 +84,20 @@ class _FreeStyleTrainingPageState extends State<FreeStyleTrainingPage> {
                 SizedBox(
                   height: 32,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.center,
+                //   children: [
                     PlayBeatButtonWidget(
                       onPlay: controller.play,
                       onStop: controller.stop,
                     ),
-                    PauseBeatButtonWidget(
-                      enabled: true,
-                      onPause: controller.pause,
-                      onResume: controller.resume,
-                    ),
-                  ],
-                ),
+                  //   PauseBeatButtonWidget(
+                  //     enabled: true,
+                  //     onPause: controller.pause,
+                  //     onResume: controller.resume,
+                  //   ),
+                  // ],
+                // ),
               ],
             ),
           ),

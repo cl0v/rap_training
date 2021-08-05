@@ -8,12 +8,13 @@ class LyricsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final bloc = LyricsProvider.of(context).bloc;
     return ValueListenableBuilder(
-        valueListenable: bloc.notifier,
-        builder: (BuildContext context, String value, Widget? child) {
-          return Text(
-            value,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 42),
-          );
-        });
+      valueListenable: bloc.notifier,
+      builder: (BuildContext context, String value, Widget? child) {
+        return Text(
+          value,
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 42),
+        );
+      },
+    );
   }
 }
