@@ -1,8 +1,14 @@
+
 import 'package:flutter/material.dart';
 import 'app.dart';
 
+void main() {
+  
+  runApp(MyApp());
+}
+//
 
-/*
+/* REFERENCIAS
 https://www.quora.com/How-can-I-play-music-and-record-that-music-both-at-the-same-time
 https://www.snappea.com/pt/videoInfo?key=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dkkk2Z0q_jWc&searchType=link
 https://pub.dev/packages/flutter_sound
@@ -12,18 +18,21 @@ https://pub.dev/packages/flutter_uploader
 https://pub.dev/packages/file_picker
 */
 
-// Liberar envio de beat e remunerar a pessoa pelo beat (Inventivar a criacao de beats)
-//Karaoke
+/* TODO LIST
+Agora preciso organizar antes de trollar meu app
 
-//Gravar a pessoa cantando e permitir compartilhamento
+Liberar envio de beat e remunerar a pessoa pelo beat (Inventivar a criacao de beats)
+Karaoke
 
-//TODO: Agora preciso organizar antes de trollar meu app
+Gravar a pessoa cantando e permitir compartilhamento
 
-//TODO: Play whatsapp audio feature futura
-// Feature sugerir possiveis frases pra conectar o free style
-// Escolher
+Play whatsapp audio feature futura
+Feature sugerir possiveis frases pra conectar o free style
+Escolher
 
-// Cante com a musica, letras ao vivo
+Cante com a musica, letras ao vivo
+*/
+
 
 /*
 Adicionar niveis de dificuldade
@@ -57,7 +66,3 @@ Botao de reset no canto superior
  */
 
 */
-
-void main() {
-  runApp(MyApp());
-}
